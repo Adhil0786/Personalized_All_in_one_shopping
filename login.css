@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    height: 100vh;
+    background-image: url("images/bgiamge.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.signin-container {
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 17px rgba( 25, 24, 24);
+    width: 100%;
+    max-width: 400px;
+    align-content: center;
+    
+}
+
+.signin-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.signin-container input[type="text"],
+.signin-container input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+}
+
+.signin-container button {
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #3498db;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signin-container button:hover {
+    background-color: #29b9aa;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 20px;
+    display: none;
+}
